@@ -134,7 +134,7 @@ class VendingSimulation extends MainFrame {
 object VendingSimulation extends App {
   val d = new VendingSimulation
   d.visible = true
-  RawTester.test(new VendingMachine(20)) { dut =>
+  RawTester.test(new VendingMachine(5)) { dut =>
     dut.clock.setTimeout(0)
     while (d.running) {
 
