@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\chisel\chisel-lab-master\vending\target\scala-2.13\vending_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegmentDisplay$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\SevenSegmentDisplay$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegmentDisplay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\SevenSegmentDisplay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\VendingMachine$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\VendingMachine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\VendingMachine$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\VendingMachine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VM backup[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes\VM backup[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
