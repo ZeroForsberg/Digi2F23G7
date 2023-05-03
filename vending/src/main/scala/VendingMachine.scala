@@ -1,7 +1,7 @@
 import chisel3._
 import chisel3.util._
 
-class VendingMachine extends Module {
+class VendingMachine(maxCount: Int) extends Module {
   val io = IO(new Bundle {
     val price = Input(UInt(7.W))
     val coin1 = Input(Bool())

@@ -1,0 +1,56 @@
+import chisel3._
+import chisel3.util._
+
+class VendingMachine(maxCount: Int) extends Module {
+  val io = IO(new Bundle {
+    val price = Input(UInt(5.W))
+    val coin2 = Input(Bool())
+    val coin5 = Input(Bool())
+    val buy = Input(Bool())
+    val releaseCan = Output(Bool())
+    val alarm = Output(Bool())
+    val seg = Output(UInt(7.W))
+    val an = Output(UInt(2.W))
+  })
+
+  // Register to hold the sum of inserted coins
+  val sumReg = RegInit(1.U(5.W))
+
+  // Logic for adding coins to sum
+  when(io.coin2 && !RegNext(io.coin2)) {
+    sumReg := sumReg + 2.U
+  }
+
+  when(io.coin5 && !RegNext(io.coin5)) {
+    sumReg := sumReg + 5.U
+  }
+
+  // Logic for displaying sum on an2 and an3
+  val sumDisplay = WireInit(sumReg)
+  when(io.buy) {
+    // Clear sum when buy button is pressed
+    //sumReg := 1.U
+    //sumDisplay := 0.U
+  }
+  val sevSeg = WireInit(0.U(7.W))
+
+  sevSeg := sumDisplay
+
+  io.seg := ~sevSeg
+  io.an := "b11".U
+
+  // Logic for releasing can or sounding alarm
+  when(io.buy && sumReg >= io.price) {
+    io.releaseCan := true.B
+    io.alarm := false.B
+    sumReg := sumReg - io.price
+  }.otherwise {
+    io.releaseCan := false.B
+    io.alarm := io.buy && sumReg < io.price
+  }
+}
+
+// generate Verilog
+object VendingMachine extends App {
+  (new chisel3.stage.ChiselStage).emitVerilog(new VendingMachine(100000))
+}
