@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DisplayMultiplexer$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VendingMachine$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\chisel\chisel-lab-master\vending\target\scala-2.13\classes.bak[0m
